@@ -6,3 +6,6 @@ Please install the **TransCox** package and the **required python environment** 
 
 ## Running the code: Step 1
 To generate the simulation results, please run Step1_GetSimulationResults_main.R and Step1_GetSimulationResults_Supp.R. Don't forget to change the working directory through `setwd()`. The output of these two R file is `Cov5_Beta_SimResults_250_6400.RData` and `Cov5_Normal_SimResults_250_6400.RData`.
+
+## Generating the figures: Step 2-6
+Use the code in Step 2-6 to generate each simulation figures. The only result needed for running these codes is `Cov5_Beta_SimResults_250_6400.RData` and `Cov5_Normal_SimResults_250_6400.RData`.
